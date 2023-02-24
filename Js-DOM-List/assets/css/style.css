@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(208, 208, 208);
+}
+
+#list-maker .for-center {
+  display: flex;
+  flex-direction: column;
+}
+
+#list-maker .for-center input {
+  height: 32%;
+  font-size: 40px;
+  color: gray;
+}
+
+#list-maker .for-center input:focus {
+  box-shadow: none;
+}
+
+#list-maker .for-center button {
+  height: 10svh;
+  width: 100%;
+  align-self: center;
+  font-size: 30px;
+  letter-spacing: 50px;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+
+#list-maker ul .item .text {
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+#list-maker ul .item i {
+  font-size: 35px;
+  color: rgb(0, 102, 255);
+}
+
+.pointer {
+  cursor: pointer;
+}
